@@ -361,7 +361,7 @@ class Pagos(APIView):
             pago = {
                 "user_id": user_id,
                 "amount": cantidad,
-                "type_id": 1
+                "type_id_id": 1
             }
 
             serializer = TransactionSerializer(data=pago)
