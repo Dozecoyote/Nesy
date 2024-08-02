@@ -1,0 +1,1 @@
+web: gunicorn backend-ronaldo.wsgi --log-file -
